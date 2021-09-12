@@ -4,17 +4,20 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seeds.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/krcook1980/DeepThoughts.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/krcook1980/DeepThoughts/issues"
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.9.9"
   },
-  "homepage": "https://github.com/krcook1980/DeepThoughts#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
