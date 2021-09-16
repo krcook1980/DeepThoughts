@@ -1,6 +1,3 @@
 # DeepThoughts
 
-I am updated
-
-Humpty Dumpty ate potatoes
-
+I am updating my read me.
